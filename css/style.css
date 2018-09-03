@@ -1,0 +1,69 @@
+:root {
+    --base: #6CDECA;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right bottom, #1e5460, #0b4558, #00364f, #002844, #051937);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DADADA;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.h1 {
+    font-size: 3.5rem;
+    color: var(--base);
+}
+
+.controls {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.controls-group {
+    font-size: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+input {
+    width: 10rem;
+}
+
+.image {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    border-radius: 0.5rem;
+}

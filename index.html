@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Scoped CSS Variable and JS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Update CSS Variable with <span class="h1">JS</span></h2>
+    <div class="controls">
+        <div class="controls-group">
+            <label for="spacing">Spacing :</label>
+            <input type="range" name="spacing" min="2" max="80" value="5" data-sizing="px">
+        </div>
+        <div class="controls-group">
+            <label for="blur">Blur :</label>
+            <input type="range" name="blur" min="0" max="25" value="5" data-sizing="px">
+        </div>
+        <div class="controls-group">
+            <label for="base">Base Color :</label>
+            <input type="color" name="base" value="#6CDECA">
+        </div>
+    </div>
+
+    <img class="image" src="https://pixabay.com/get/eb30b0082ef1023ed1584d05fb1d4e97e07ee3d21cac104496f5c87fa2edbcbe_340.jpg">
+
+    <script src="js/script.js"></script>
+</body>
+</html>
